@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 4 - Build Auto-suggestion feature</title>
+
+    <link rel="stylesheet" type="text/css" href="css/semantic.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/search-box.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/semantic.min.js"></script>
+
+    <script src="database/collections.js"></script>
+    <script src="database/products.js"></script>
+    <script src="database/suggestions.js"></script>
+
+    <script src="js/search-box.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="my-app">
+      <div class="ui container">
+        <h1>Question 4 - Build Auto-suggestion feature</h1>
+
+        <div class="header">
+          <div class="ui icon input search-box-wrapper">
+            <i class="search icon"></i>
+            <input
+              id="search-box"
+              type="text"
+              placeholder="Search..."
+              autofocus
+            />
+          </div>
+        </div>
+
+        <div class="config-box">
+          <p>Options:</p>
+          <ul>
+            <li>
+              <input
+                id="is-get-suggestion-term"
+                name="isGetSuggestionTerm"
+                type="checkbox"
+                checked
+              />
+              <label for="is-get-suggestion-term"
+                >Display Suggestion Terms</label
+              >
+            </li>
+            <li>
+              <input
+                id="is-get-collection"
+                name="isGetCollection"
+                type="checkbox"
+                checked
+              />
+              <label for="is-get-collection">Display Collections</label>
+            </li>
+            <li>
+              <input
+                id="is-get-product"
+                name="isGetProduct"
+                type="checkbox"
+                checked
+              />
+              <label for="is-get-product">Display Product</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

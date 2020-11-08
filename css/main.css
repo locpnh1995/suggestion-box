@@ -1,0 +1,25 @@
+.my-app {
+  padding-top: 36px;
+  margin-bottom: 24px;
+}
+
+.my-app .header {
+  display: flex;
+}
+
+.config-box {
+  margin-top: 12px;
+}
+
+.config-box li {
+  list-style-type: none;
+}
+
+.search-box-wrapper {
+  position: relative;
+  margin-left: auto;
+}
+
+#search-box {
+  width: 350px;
+}

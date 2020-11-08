@@ -1,0 +1,112 @@
+/* START RESET */
+.suggestion-result-wrapper ul {
+  padding: 0;
+  margin: 0;
+}
+
+.suggestion-result-wrapper li {
+  list-style-type: none;
+}
+
+.suggestion-result-wrapper p {
+  padding: 0;
+  margin: 0;
+}
+/* END RESET */
+
+.suggestion-result-wrapper {
+  top: calc(100% + 2px);
+  width: 100%;
+  position: absolute;
+
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+  background-color: #fff;
+}
+
+.suggestion-result-wrapper:empty {
+  border: none;
+  box-shadow: none;
+}
+
+.suggestion-result-wrapper .section-wrapper {
+  /* */
+}
+
+.suggestion-result-wrapper .section-wrapper .result-list {
+  /* */
+}
+
+.suggestion-result-wrapper .section-wrapper .result-list li {
+  padding: 6px 12px;
+}
+
+.suggestion-result-wrapper .section-wrapper .result-list li b {
+  font-weight: bold;
+}
+
+.suggestion-result-wrapper .section-wrapper .result-list li a {
+  color: inherit;
+}
+
+.suggestion-result-wrapper .section-wrapper .result-list li:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.suggestion-result-wrapper .section-wrapper.product .result-list li {
+  display: flex;
+
+  border-bottom: 1px solid #ccc;
+}
+
+.suggestion-result-wrapper .section-wrapper.product .image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex: 3;
+  margin-right: 18px;
+}
+
+.suggestion-result-wrapper .section-wrapper.product .product-info {
+  flex: 7;
+}
+
+.suggestion-result-wrapper .section-wrapper.product .product-info .product-name,
+.suggestion-result-wrapper
+  .section-wrapper.product
+  .product-info
+  .product-price {
+  font-weight: bold;
+}
+
+.suggestion-result-wrapper
+  .section-wrapper.product
+  .product-info
+  .product-brand {
+  color: #9c9c9c;
+}
+
+.suggestion-result-wrapper
+  .section-wrapper.product
+  .product-info
+  .product-name {
+  font-weight: bold;
+}
+
+.suggestion-result-wrapper .section-wrapper.product img {
+  max-height: 100px;
+}
+
+.suggestion-result-wrapper .section-wrapper .section-header {
+  padding: 6px 12px;
+  background-color: #cecece;
+  color: #fff;
+}
+
+.suggestion-result-wrapper .section-wrapper:first-child .section-header {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
